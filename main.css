@@ -1,0 +1,90 @@
+.body{
+    background-color: #F0EAD6;
+}
+.navigation-bar{
+    background-color: #1F2428;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+
+
+
+}
+.nav-link{
+    color:#fff;
+}
+
+.hero{
+    background-color: #1F2428;
+    height: 60vh;
+    color: #fff;
+
+
+}
+
+#profile_pic{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+
+
+}
+.hero--content{
+    width: 800px;
+    margin: 0 auto;
+    padding: 3em;
+    
+
+}
+.hero--content--intro{
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+    margin-bottom: 3em;
+
+
+
+}
+.intro--name{
+    font-size: 100px;
+    letter-spacing: .1em;
+    font-weight: 700;
+    text-align: center;
+
+
+}
+.description{
+    font-size: 65px;
+    text-align: center;
+    
+
+
+}
+.slogan{
+    font-size: 24px;
+    text-align: center;
+
+}
+.project--wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+    margin-top: 2em;
+
+    
+}
+.project--column{
+   
+}
+.project--thumbnail{
+    width: 100%;
+
+}
+.project--body{
+    background-color: #fff;
+    padding: 2em;
+    
+
+}
