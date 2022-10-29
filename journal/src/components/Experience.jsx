@@ -97,7 +97,7 @@
                         techs.map(({id, src, title, style}) => (
                             <div key={id} 
                             className={`shadow-md hover:scale-105, duration-500py-2 rounded-lg ${style}`}>
-                        <img src={src} alt=" " className='w-20 mx-auto'/>
+                        <img src={src} alt=" " className='w-10 mx-auto'/>
                         <p className='mt-4'>{title}</p>
                     </div>
 
