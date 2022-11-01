@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import monolithtomicroservices from "../assets/portfolio/microservices.png"
 import chromeextension from "../assets/portfolio/chromeExtension.png"
 import aws_Serverless_TodoApp from "../assets/portfolio/serverlesstodo.png"
@@ -9,7 +9,7 @@ import test from "../assets/videos/extension.mp4"
 
 
 const Projects = () => {
-    const [popup, setPopup] = useState(false);
+    //const [popup, setPopup] = useState(false);
 
     const projects = [
         {
