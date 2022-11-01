@@ -2,8 +2,8 @@ import React, {useState} from 'react'
 import monolithtomicroservices from "../assets/portfolio/microservices.png"
 import chromeextension from "../assets/portfolio/chromeExtension.png"
 import aws_Serverless_TodoApp from "../assets/portfolio/serverlesstodo.png"
-import airbnbclon from "../assets/portfolio/arrayDestruct.jpg"
-import admindash from "../assets/portfolio/arrayDestruct.jpg"
+//import airbnbclon from "../assets/portfolio/arrayDestruct.jpg"
+//import admindash from "../assets/portfolio/arrayDestruct.jpg"
 import test from "../assets/videos/extension.mp4"
 
 
