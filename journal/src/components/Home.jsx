@@ -20,7 +20,6 @@ const Home = () => {
             Currently I love building web applications using technologies like 
             typescript, nodejs, django,python, mongoDB, mySQL AND REACT.
         
-            Welcome to my learning journal.
           </p>
           <div>
             <Link to="projects" smooth duration={500} className=' group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md
