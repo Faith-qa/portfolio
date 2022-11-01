@@ -16,7 +16,7 @@ const Projects = () => {
             id:1,
             src: monolithtomicroservices,
             code: 'https://github.com/Faith-qa/Faith-monolith-to-microservices-project',
-            demo: ''
+            demo: 'https://github.com/Faith-qa/Faith-monolith-to-microservices-project/tree/main/demo-screenshots'
         },
         {
             id:2,

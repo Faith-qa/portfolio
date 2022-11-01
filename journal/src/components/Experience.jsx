@@ -1,18 +1,18 @@
  import React from 'react'
  import html from "../assets/html.png"
- import nodejs from "../assets/html.png"
+ import nodejs from "../assets/node.png"
  import github from "../assets/github.png"
- import AWS from "../assets/html.png"
+ import AWS from "../assets/aws-cloud.png"
  //import docker from "../assets/html.png"
- import typescript from "../assets/html.png"
- //import javascript from "../assets/javascript.png"
+ //import typescript from "../assets/html.png"
+ import javascript from "../assets/javascript.png"
  //import googleCloud from "../assets/html.png"
  import reactImage from "../assets/react.png"
- import python from "../assets/html.png"
- import mongoDB from "../assets/html.png"
- import mySQL from "../assets/html.png"
+ import python from "../assets/Python.png"
+ import mongoDB from "../assets/MongoDB_Logo.png"
+ import mySQL from "../assets/mysql.png"
  //import git from "../assets/html.png"
- import travis from "../assets/html.png"
+ import travis from "../assets/travis.png"
 
  
  function Experience() {
@@ -27,19 +27,20 @@
             id: 2,
             src: python,
             title: 'Python',
-            style: 'shadow-yellow-500'
+            style: 'shadow-orange-500'
+            
         },
         {
             id: 3,
             src: nodejs,
             title: 'Nodejs',
-            style: 'shadow-green-500'
+            style: 'shadow-orange-500'
         },
         {
             id: 4,
-            src: typescript ,
-            title: 'Amazon Web Services',
-            style: 'shadow-blue-500'
+            src: javascript ,
+            title: 'JavaScript',
+            style: 'shadow-orange-500'
         },
         {
             id: 5,
