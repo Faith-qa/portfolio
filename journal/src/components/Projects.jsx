@@ -28,7 +28,7 @@ const Projects = () => {
             id:3,
             src: aws_Serverless_TodoApp,
             code: 'https://github.com/Faith-qa/ALX-Cloud-Developer/tree/master/aws-serverless-Todoapp',
-            demo: ''
+            
         },
         
     ]
