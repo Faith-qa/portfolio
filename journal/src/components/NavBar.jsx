@@ -11,21 +11,18 @@ export default function NavBar() {
             id: 1,
             link: 'home'
         },
+        
         {
             id: 2,
-            link: 'about'
-        },
-        {
-            id: 3,
             link: 'projects'
         },
         
         {
-            id: 4,
+            id: 3,
             link: 'experience'
         },
         {
-            id: 5,
+            id: 4,
             link: 'contact',
         },
 
