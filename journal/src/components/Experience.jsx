@@ -1,114 +1,50 @@
- import React from 'react'
- import html from "../assets/html.png"
- import nodejs from "../assets/node.png"
- import github from "../assets/github.png"
- import AWS from "../assets/aws-cloud.png"
- //import docker from "../assets/html.png"
- //import typescript from "../assets/html.png"
- import javascript from "../assets/javascript.png"
- //import googleCloud from "../assets/html.png"
- import reactImage from "../assets/react.png"
- import python from "../assets/Python.png"
- import mongoDB from "../assets/MongoDB_Logo.png"
- import mySQL from "../assets/mysql.png"
- //import git from "../assets/html.png"
- import travis from "../assets/travis.png"
-
- 
- function Experience() {
-    const techs = [
-        {
-            id: 1,
-            src: html,
-            title: 'HTML',
-            style: 'shadow-orange-500'
-        },
-        {
-            id: 2,
-            src: python,
-            title: 'Python',
-            style: 'shadow-orange-500'
-            
-        },
-        {
-            id: 3,
-            src: nodejs,
-            title: 'Nodejs',
-            style: 'shadow-orange-500'
-        },
-        {
-            id: 4,
-            src: javascript ,
-            title: 'JavaScript',
-            style: 'shadow-orange-500'
-        },
-        {
-            id: 5,
-            src: AWS ,
-            title: 'Amazon Web Services',
-            style: 'shadow-orange-500'
-        },
-        {
-            id: 6,
-            src: github,
-            title: 'GitHub',
-            style: 'shadow-orange-500'
-        },
-        {
-            id: 7,
-            src: reactImage,
-            title: 'React',
-            style: 'shadow-blue-500'
-        },
-        {
-            id: 8,
-            src: mongoDB,
-            title: 'mongoDB',
-            style: 'shadow-orange-500'
-        },
-        {
-            id: 9,
-            src: mySQL,
-            title: 'mySQL',
-            style: 'shadow-orange-500'
-        },
-        {
-            id: 10,
-            src: travis,
-            title: 'Travis CI',
-            style: 'shadow-orange-500'
-        }
-
-    ]
-
+import React from 'react';
+import "../styles/experience.css";
+function Experience()  {
     return (
-        <div name="experience" className='bg-gradient-to-b from-gray-800 to-black
-        w-full h-screen'>
-            <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-centre w-full
-            h-full text-white'>
-                <div>
-                    <p className='text-4xl font-bold border-b-4
-                    border-gray-500 p-2 inline'>Experience</p>
-                    <p className='py-6'>These are the technologies I've worked with</p>
-                </div>
-                <div className='w-full grid grid-cols-2 sm:grid-cols-3
-                gap-8 text-center py-8 px-12 sm:px-0'>
+        <div name="experience" class="container py-5">
 
-                    {
-                        techs.map(({id, src, title, style}) => (
-                            <div key={id} 
-                            className={`shadow-md hover:scale-105, duration-500py-2 rounded-lg ${style}`}>
-                        <img src={src} alt=" " className='w-10 mx-auto'/>
-                        <p className='mt-4'>{title}</p>
-                    </div>
+        <div class="row">
+            <div class="col-lg-8 mx-auto">
+                
+                
+                <ul class="timeline">
+                    <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0">Cloud Developer [Freelance] <a href="https://beatific.co/" target="https://beatific.co/">Beatific</a></h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>August 2022 - Present</span>
+                        <ul class="text-small mt-2 font-weight-light">
+                        <li>Built the backend server of the beatific chrome extension using express js</li>
+                            
+                        <li>Led and managed the deployment of beatific chrome extension to aws elastic beanstalk</li>
+                        <li>configured an end to end termination of the beatific extension on https </li>
+                        </ul>
+                    </li>
+                    <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0">Technical Mentor: Specialist - African Leadership Group- <a href="https://algroup.org/" target="https://algroup.org/">African Leadership Group</a></h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>October 2021 - Present</span>
+                        <ul class="text-small mt-2 font-weight-light">
+                        <li>Facilitated and delivered 100+ hours of live coding sessions to 20000+ participants on python, C, nodejs programming language</li>
+                        <li>Designed the mentor-student working cadence that improved the program retention rate by 80%</li>
+                        <li>Created an end-to-end playbook of the ALX software engineering program defining key systems and processes to ensure efficient program delivery and implementation.</li>
+                        </ul>
+                    </li>
+                    <li class="timeline-item bg-white rounded ml-3 p-4 shadow">
+                        <div class="timeline-arrow"></div>
+                        <h2 class="h5 mb-0">Technical Associate - Community Support - <a href="https://algroup.org/" target="https://algroup.org/">African Leadership Group</a></h2><span class="small text-gray"><i class="fa fa-clock-o mr-1"></i>January -October 2021</span>
+                        <ul class="text-small mt-2 font-weight-light">
+                            <li>Built and run a community of 3000 members with 80% active and engaging</li>
+                            <li>Managed 2 Linux servers with +15 website hosted using LAMP and LEMP stack</li>
+                            <li>Designed an inventory management system for ALA art department using Django, and deployed on AWS. This improved the
+                                student experience of borrowing items, and made it easier for the department to track the stock and the quality of items.</li>
+                        </ul>
+                    </li>
+                </ul>
 
-                        ))
-                    }
-                    
-                </div>
             </div>
         </div>
+    </div>
+       
     )
-    }
- 
- export default Experience
+
+}
+export default Experience
