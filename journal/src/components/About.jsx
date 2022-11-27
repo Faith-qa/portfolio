@@ -2,38 +2,16 @@ import React from 'react'
 
 function About() {
   return (
-    <div name="about" className='w-full h-screen bg-gradient-to-b
-        from-gray-800 to-black text-white'>
-
-        <div className='max-w-screen-lg p-4 mx-auto flex flex-col
-        justify-center w-full h-full'>
-            <div className='pb-8'>
-                <p className="text-4xl font-bold inline border-b-4
-                border-gray-500">
-                    About
-                    </p>
-            </div>
-            <p className='text-xl mt-20'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Repellendus inventore voluptas quae rem sed vero nisi quos 
-                consequuntur deleniti, consequatur, voluptate deserunt quo, 
-                quod excepturi. Laudantium amet quidem asperiores, doloremque
-                numquam tenetur, obcaecati sit eveniet eligendi omnis eos voluptate
-                empore neque minima mollitia ab nesciunt reprehenderit, porro 
-                culpa molestiae consectetur?
-            </p>
-            <br/>
-            <p className='text-xl'>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                Iste veritatis culpa maxime dignissimos quidem iure delectus, 
-                dicta odit ullam laboriosam dolorum doloribus sunt repudiandae 
-                explicabo saepe sint. Esse iusto dolorum sint exercitationem, 
-                reiciendis eveniet sit dignissimos delectus eum at impedit dolorem 
-                accusamus harum ducimus? Dolor inventore architecto omnis necessitatibus? 
-                Omnis.
-            </p>
-        </div>
-    </div>
+    <section id="about-me" class="portfolio-block block-intro" style="padding-bottom: 0px;">
+            <div class="container">
+                <div data-aos="fade" data-aos-duration="1500" class="avatar aos-init aos-animate" style="background-image: url(&quot;assets/img/headshot.png?h=a628a0197d6a3cc82785d461810ee1ac&quot;);width: 250px;height: 250px;filter: blur(0px) brightness(100%) invert(0%) sepia(0%);margin-bottom: 10px;"></div>
+                <div data-aos="fade" data-aos-duration="800" class="social-icons aos-init aos-animate" style="height: 45px;"><a href="https://www.linkedin.com/in/emmanuel-murairi" target="_blank" style="color: #0e76a8;background-color: rgb(255,255,255);font-size: 35px;"><i class="icon ion-social-linkedin" style="font-size: 35;width: 43px;margin: 10;"></i></a><a href="https://github.com/Emmastro" target="_blank" style="color: #AD5C51;background-color: rgb(255,255,255);"><i class="icon ion-social-github" style="font-size: 35px;margin: 10px;"></i></a></div>
+                <div class="about-me">
+                    <p data-aos="slide-up" data-aos-duration="800" style="margin-bottom: 0px;" class="aos-init aos-animate">Hello, I am <strong>Emmanuel</strong>! I am passionate about&nbsp;technology and entrepreneurship. I use my experience in Software Development and Data Analysis to design products and services&nbsp;. I am currently working as a Data Analyst at <a href="https://mymdoc.com" target="_blank">mDoc</a> while pursuing my Bachelor’s degree (Honors) in Computing at the African Leadership College.<br/></p>
+                </div>
+            </div><script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script><div id="particles-js">
+        </div></section>
+    
   )
 }
 

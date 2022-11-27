@@ -29,7 +29,7 @@ export default function NavBar() {
     ];
     return (
     <div className='flex justify-between items-center w-full 
-    h20 px-4 text-white bg-black fixed'>
+    h20 px-4 text-white bg-black z-50 fixed'>
         <h1 className='text-5xl font-signature ml-2'>Faith </h1>
         <ul className='hidden md:flex'>
 
