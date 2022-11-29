@@ -2,6 +2,7 @@ import React from 'react'
 import {FaGithub, FaLinkedin} from 'react-icons/fa'
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
+import {BsMedium} from 'react-icons/bs'
 const SocialLinks = () => {
     const links = [
         {
@@ -36,6 +37,15 @@ const SocialLinks = () => {
             id: 4,
             child: (
                 <>
+                Blog <BsMedium size={30}/>
+                </>
+            ),
+            href: 'https://medium.com/@okothfaith16'
+        },
+        {
+            id: 5,
+            child: (
+                <>
                 Resume <BsFillPersonLinesFill size={30} />
                 </>
             ),
@@ -48,7 +58,7 @@ const SocialLinks = () => {
         <div className='hidden lg:flex flex-col top-[35%] l-0 fixed'>
             <ul>
                 {links.map(({id, child, href, style, download})=> (
-                    <li key={id} className={"flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" + 
+                    <li key={id} className={"flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gradient-to-r from-cyan-500 to-blue-500" + 
                     " " + 
                     style
                     }

@@ -82,6 +82,7 @@ ul {
 ul.timeline:before {
     content: ' ';
     background: #f4f4f4;
+
     display: inline-block;
     position: absolute;
     left: 16px;
