@@ -43,7 +43,7 @@ function Experience()  {
             </div>
         </div>
         <div class="d-flex justify-content-center align-items-center content">
-            <h3>Want to see more?</h3><a class="btn btn-outline-primary btn-lg" role="button" data-bss-hover-animate="bounce" href="https://drive.google.com/file/d/1UocIe7VlO258qxRfNLLd18WsEtVvAleZ/view?usp=sharing" target="https://drive.google.com/file/d/1UocIe7VlO258qxRfNLLd18WsEtVvAleZ/view?usp=sharing">Download my CV</a>
+            <h3>Want to see more?</h3><a class="btn btn-outline-primary btn-lg" role="button" data-bss-hover-animate="bounce" href="https://drive.google.com/file/d/1o7u4tyJm5zxp855odhlTQ9M6EWkliTgd/view?usp=sharing" target="https://drive.google.com/file/d/1o7u4tyJm5zxp855odhlTQ9M6EWkliTgd/view?usp=sharing">Download my CV</a>
         </div>
     </div>
        

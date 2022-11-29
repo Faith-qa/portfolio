@@ -13,9 +13,9 @@ const Home = () => {
         <div className="flex flex-col justify-center h-full">
           
           
-          <p className='text-gray-500 py-4 max-w-md align-justify'> 
+          <p className='text-gray-500 py-4 max'> 
           Hi, my name is <strong>Faith Okoth</strong>.<br/> I am a software engineer passionate about using technology to build scalable and impactful business and social solutions.
-          I’m skilled in <strong>AWS cloud, nodejs, expressJs, python, javascript, MongoDB, </strong> and <strong>reactjs</strong>
+          I’m skilled in <strong>AWS cloud, nodejs, expressJs, python, javascript, MongoDB, </strong> and <strong>reactjs.</strong> <br/>
           I currently work as a Technical Mentor Specialist at the <a href='https://algroup.org/'> African Leadership Group</a> and freelance as a cloud developer in my free time.
 
 
